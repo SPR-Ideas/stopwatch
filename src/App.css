@@ -4,15 +4,37 @@
   height: 100vh;
   justify-content: center;
   align-items: center;
+  background-color: #2a2e34;
 }
 .clock{
-  height: 250px;
-  width: 250px;
-  border: 2px solid #000000;
+  height: 260px;
+  width: 260px;
+  border: 4px solid teal;
+  box-shadow: inset 1px 1px 20px rgba(0, 0, 0, 0.45);
+  box-shadow:  1px 1px 80px -20px rgba(2, 189, 189, 0.231);
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3b3f46;
 }
-
+.time{
+  font-size: 300%;
+  /* color: rgb(3, 111, 111); */
+  color: rgba(255, 255, 255, 0.6);
+}
+.card{
+  padding-bottom: 1rem !important;
+}
 .clock-box{
-  padding:1rem ;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding:1rem !important;
+  border-radius: .5rem;
 }
-
+.card-actions{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+}

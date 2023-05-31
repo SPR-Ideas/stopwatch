@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import { Fragment } from 'react';
+import { Fragment  } from 'react';
 import {Watch} from './components/watch'
 
 function App() {
-  return (
+    return (
     <Fragment >
       <div className='body'>
         <Watch/>
