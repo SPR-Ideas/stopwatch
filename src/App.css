@@ -1,7 +1,7 @@
 .body{
   display: flex;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   justify-content: center;
   align-items: center;
   background-color: #2a2e34;
@@ -25,6 +25,7 @@
 }
 .card{
   padding-bottom: 1rem !important;
+  width: 400px !important;
 }
 .clock-box{
   display: flex;
@@ -37,4 +38,31 @@
   margin-top: 2rem;
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+
+.collection{
+  border: 2px solid #3b3f46 ;
+  max-height: 300px;
+  overflow-y: scroll;
+
+}
+.collection::-webkit-scrollbar{
+  display: none;
+}
+.collection-header{
+  border: none;
+
+}
+.collection-item{
+  border: 0px solid #3b3f46;
+}
+.flex-box{
+  display: flex !important;
+  justify-content: space-between;
+  column-gap: 2rem;
+
+}
+.last{
+  color: gray ;
 }
